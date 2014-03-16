@@ -18,7 +18,7 @@
     prototype.runaway = function(){
         var a = Math.random()%2;
         var angle = this.me.angle%360;
-        if(angle>180){
+        if(angle>=180){
            this.turn_right(90);
            this.turn_turret_left(90);
         }
