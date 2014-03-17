@@ -40,7 +40,7 @@
      locking = false;
     };
     prototype.onWallCollide = function(){
-      this.move_opposide(10);
+      this.move_opposide(160);
       this.turn_left(20);
     };
     prototype.runaway = function(){
