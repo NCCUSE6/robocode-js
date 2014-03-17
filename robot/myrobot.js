@@ -6,6 +6,7 @@
   MyRobot = (function(superclass){
     var prototype = extend$((import$(MyRobot, superclass).displayName = 'MyRobot', MyRobot), superclass).prototype, constructor = MyRobot;
     prototype.onIdle = function(){
+     this.shoot();
      var myangle,enangle,leftdis,rightdis;
      if(this.myVarEnemy){
         myangle = this.me.angle%360;
